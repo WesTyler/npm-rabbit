@@ -1,0 +1,31 @@
+{
+  "name": "npm-rabbit",
+  "version": "1.0.0",
+  "description": "Consume npm registry events and publish to rabbit queues",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WesTyler/npm-rabbit.git"
+  },
+  "keywords": [
+    "npm",
+    "registry",
+    "rabbitmq",
+    "module",
+    "updates"
+  ],
+  "author": "Wes Tyler (westyler5@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WesTyler/npm-rabbit/issues"
+  },
+  "homepage": "https://github.com/WesTyler/npm-rabbit#readme",
+  "dependencies": {
+    "amqplib": "^0.4.2",
+    "concurrent-couch-follower": "^1.1.0",
+    "normalize-registry-metadata": "^1.1.2"
+  }
+}
