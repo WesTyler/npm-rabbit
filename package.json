@@ -2,7 +2,7 @@
   "name": "npm-rabbit",
   "version": "1.0.0",
   "description": "Consume npm registry events and publish to rabbit queues",
-  "main": "index.js",
+  "main": "worker.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
