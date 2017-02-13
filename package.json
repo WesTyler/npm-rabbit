@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/WesTyler/npm-rabbit#readme",
   "dependencies": {
-    "amqplib": "^0.4.2",
+    "bunnybus": "^1.0.3",
     "concurrent-couch-follower": "^1.1.0",
     "normalize-registry-metadata": "^1.1.2"
   }
